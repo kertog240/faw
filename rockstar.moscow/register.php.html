@@ -1,0 +1,167 @@
+﻿
+
+    <header class="">
+        <a href="index.html" class="logotype">Rockstar</a>
+
+        <div class="mobile-mode">
+            <a class="theme"><i class='bx bxs-moon' id="toggleTheme"></i></a>
+            <a class="menu-icon" id="mobile-mode"><i class='bx bx-menu'></i></a>
+        </div>
+        
+        <ul class="menu-list hide" id="menu-list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="login.php.html">Маркет</a></li>
+            <li><a href="faq.html">Гайды</a></li>
+                        <li><a href="register.html">Присоединиться</a></li>
+                    </ul>
+    
+        <ul class="links" id="links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="login.php.html">Маркет</a></li>
+            <li><a href="faq.html">Гайды</a></li>
+        </ul>
+
+        <div class="right-side">
+            <a class="theme"><i class='bx bxs-moon' id="toggleTheme2"></i></a>
+                            <a class="reg" href="register.html">Присоединиться</a>
+                    </div>
+    </header>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rockstar Premium - Регистрация</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/notifications.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/register.css'>
+    <link href='boxicons%402.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="recaptcha/api.js"></script>
+</head>
+
+<!-- Большие деньги не спасут тебя -->
+
+<style>
+
+:root {
+    --main-color: rgb(86,102,220);
+    --main-second-color: rgb(124,146,223);
+}
+
+
+</style>
+<body>
+    <section id="main">
+        <div class="container">
+            <div class="reg-box">
+                <form method="post">
+                    <div class="reg-text">
+                        <h2>Регистрация</h2>
+                        <div class="desc">Введите данные для регистрации аккаунта</div>
+                    </div>
+                
+                    <div class="inputs">
+                        <div class="input-login input">
+                            <label for="login">Логин</label><br>
+                            <input placeholder="Введите логин" id="username" name="username" type="text">
+                        </div>
+                        <div class="input-email input">
+                            <label for="email">Почта</label><br>
+                            <input placeholder="Введите адрес почты" type="email" id="email" name="email">
+                        </div>
+                        <div class="input-pass input">
+                            <label for="pass">Пароль</label><br>
+                            <input placeholder="Введите пароль" type="password" id="pass" name="password">
+                        </div>
+                    </div>
+                
+                    <div class="license">
+                        <input type="checkbox" name="license" id="license">
+                        <label for="license">Я принимаю <a style="color: var(--main-color);" href="license.php.html">Лицензионное соглашение</a></label>
+                    </div>
+                    
+                    <div class="g-recaptcha" data-sitekey="6LfPgSoqAAAAAHzaq3RiEJfPHJrbk68UIVgIIjhx"></div>
+                
+                    <div class="btn-register">
+                        <button type="submit" id="regBtn" class="btn-reg" disabled="">Зарегистрироваться</button>
+                    </div>
+                
+                    <div class="have-acc">
+                        <span>Уже есть аккаунт? <a style="color: var(--main-color);" href="login.php.html">Войти</a></span>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div id="notification-container"></div>
+    </section>
+
+    <script src="js/autotheme.js"></script>
+    <script>
+        function validateForm() {
+             const recaptchaResponse = grecaptcha.getResponse();
+             document.querySelector('input[name="g-recaptcha-response"]').value = recaptchaResponse;
+        }
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            const licenseCheckbox = document.getElementById('license');
+            const regButton = document.getElementById('regBtn');
+            const inputs = document.querySelectorAll('input[type="text"], input[type="email"], input[type="password"]');
+            const recaptchaResponse = document.querySelector('.g-recaptcha-response');
+        
+            function validateForm() {
+                let allFilled = true;
+                inputs.forEach(input => {
+                    if (input.value === '') {
+                        allFilled = false;
+                    }
+                });
+                let isRecaptchaValid = grecaptcha.getResponse().length > 0;
+                regButton.disabled = !(allFilled && licenseCheckbox.checked);
+            }
+        
+            licenseCheckbox.addEventListener('change', validateForm);
+            inputs.forEach(input => {
+                input.addEventListener('input', validateForm);
+            });
+        
+            grecaptcha.render('g-recaptcha', {
+                'callback': validateForm
+            });
+        });
+
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            const header = document.querySelector("header");
+            window.addEventListener("scroll", function() { 
+                header.classList.toggle("sticky", window.scrollY > 20);
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const boxes = document.querySelectorAll('.box');
+            boxes.forEach(function(box) {
+                box.classList.add('show');
+            });
+        });
+
+        var menuicon = document.getElementById('mobile-mode');
+        var menulist = document.getElementById('menu-list');
+        
+        menuicon.onclick = function() {
+            if (menulist.classList.contains('hide')) {
+                menulist.style.display = 'block';
+                setTimeout(function() {
+                    menulist.classList.remove('hide');
+                }, 10);
+            } else {
+                    menulist.classList.add('hide');
+                    setTimeout(function() {
+                        menulist.style.display = 'none';
+                    }, 350);
+            }
+        };
+    </script>
+    <script src="js/notifications.js"></script>
+</body>
+</html>

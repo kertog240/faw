@@ -1,0 +1,59 @@
+#notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideIn 0.5s forwards, fadeOut 0.5s 2.5s forwards;
+}
+
+.notification.success {
+    background-color: #4CAF50;
+}
+
+.notification.error {
+    background-color: #F44336;
+}
+
+.notification .icon {
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        margin-bottom: 10px;
+    }
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+        margin-bottom: -60px;
+    }
+}
+
+@media screen and (max-width: 1176px) {
+    #notification-container {
+        width: 70%;
+    }
+}

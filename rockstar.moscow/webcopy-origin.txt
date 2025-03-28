@@ -1,0 +1,268 @@
+Uri: https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsS9-SvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsS9-SvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSG-OvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSG-OvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSgOSvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSgOSvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSKeOvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSKeOvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeOvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeOvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeSvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeSvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSzuSvHg.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSzuSvHg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexaFRwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexaFRwaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexc1RwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexc1RwaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNRwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNRwaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNWwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNWwaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexTpWwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexTpWwaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexU1WwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexU1WwaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaA.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\s\mulish\v13\1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaA.ttf
+Content Type: font/ttf
+
+Uri: https://rockstar.moscow/
+File Name: C:\Downloaded Web Sites\rockstar.moscow\index.htm
+Content Type: text/html
+
+Uri: https://rockstar.moscow/404.html
+File Name: C:\Downloaded Web Sites\rockstar.moscow\404.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/css/faq.css
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css\faq.css
+Content Type: text/css
+
+Uri: https://rockstar.moscow/css/index.css?3
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css\index.css
+Content Type: text/css
+
+Uri: https://rockstar.moscow/css/index.css?4
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css\index-1.css
+Content Type: text/css
+
+Uri: https://rockstar.moscow/css/license.css
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css\license.css
+Content Type: text/css
+
+Uri: https://rockstar.moscow/css/login.css?1
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css\login.css
+Content Type: text/css
+
+Uri: https://rockstar.moscow/css/notifications.css
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css\notifications.css
+Content Type: text/css
+
+Uri: https://rockstar.moscow/css/register.css
+File Name: C:\Downloaded Web Sites\rockstar.moscow\css\register.css
+Content Type: text/css
+
+Uri: https://rockstar.moscow/faq
+File Name: C:\Downloaded Web Sites\rockstar.moscow\faq.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/favicon.ico
+File Name: C:\Downloaded Web Sites\rockstar.moscow\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://rockstar.moscow/img/bg.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\bg.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/box.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\box.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/icon.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\icon.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/instruction/launcher.jpg
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\instruction\launcher.jpg
+Content Type: image/jpeg
+
+Uri: https://rockstar.moscow/img/instruction/sync.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\instruction\sync.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/tariffs/free.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\tariffs\free.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/tariffs/legit.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\tariffs\legit.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/tariffs/premium.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\tariffs\premium.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/emotions-w.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\emotions-w.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/esp-w.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\esp-w.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/market.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\market.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen1.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen1.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen2.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen2.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen3.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen3.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen4.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen4.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen5.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen5.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen6.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen6.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen7.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen7.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen8.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen8.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/img/visual/screen9.png
+File Name: C:\Downloaded Web Sites\rockstar.moscow\img\visual\screen9.png
+Content Type: image/png
+
+Uri: https://rockstar.moscow/index
+File Name: C:\Downloaded Web Sites\rockstar.moscow\index.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/index.php
+File Name: C:\Downloaded Web Sites\rockstar.moscow\index.php.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/js/autotheme.js
+File Name: C:\Downloaded Web Sites\rockstar.moscow\js\autotheme.js
+Content Type: application/javascript
+
+Uri: https://rockstar.moscow/js/notifications.js
+File Name: C:\Downloaded Web Sites\rockstar.moscow\js\notifications.js
+Content Type: application/javascript
+
+Uri: https://rockstar.moscow/license
+File Name: C:\Downloaded Web Sites\rockstar.moscow\license.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/license.php
+File Name: C:\Downloaded Web Sites\rockstar.moscow\license.php.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/login
+File Name: C:\Downloaded Web Sites\rockstar.moscow\login.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/login.php
+File Name: C:\Downloaded Web Sites\rockstar.moscow\login.php.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/oferta.pdf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\oferta.pdf
+Content Type: application/pdf
+
+Uri: https://rockstar.moscow/register
+File Name: C:\Downloaded Web Sites\rockstar.moscow\register.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/register.php
+File Name: C:\Downloaded Web Sites\rockstar.moscow\register.php.html
+Content Type: text/html
+
+Uri: https://rockstar.moscow/reset.php
+File Name: C:\Downloaded Web Sites\rockstar.moscow\reset.php.html
+Content Type: text/html
+
+Uri: https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css
+File Name: C:\Downloaded Web Sites\rockstar.moscow\boxicons@2.1.4\css\boxicons.min.css
+Content Type: text/css
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.eot
+File Name: C:\Downloaded Web Sites\rockstar.moscow\boxicons@2.1.4\fonts\boxicons.eot
+Content Type: text/plain
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.ttf
+File Name: C:\Downloaded Web Sites\rockstar.moscow\boxicons@2.1.4\fonts\boxicons.ttf
+Content Type: font/ttf
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.woff
+File Name: C:\Downloaded Web Sites\rockstar.moscow\boxicons@2.1.4\fonts\boxicons.woff
+Content Type: font/woff
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.woff2
+File Name: C:\Downloaded Web Sites\rockstar.moscow\boxicons@2.1.4\fonts\boxicons.woff2
+Content Type: font/woff2
+
+Uri: https://www.google.com/recaptcha/api.js
+File Name: C:\Downloaded Web Sites\rockstar.moscow\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://www.google.com/recaptcha/enterprise.js
+File Name: C:\Downloaded Web Sites\rockstar.moscow\recaptcha\enterprise.js
+Content Type: text/javascript
+

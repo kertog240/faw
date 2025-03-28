@@ -1,0 +1,151 @@
+﻿
+    <header class="">
+        <a href="index.html" class="logotype">Rockstar</a>
+
+        <div class="mobile-mode">
+            <a class="theme"><i class='bx bxs-moon' id="toggleTheme"></i></a>
+            <a class="menu-icon" id="mobile-mode"><i class='bx bx-menu'></i></a>
+        </div>
+        
+        <ul class="menu-list hide" id="menu-list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="login.php.html">Маркет</a></li>
+            <li><a href="faq.html">Гайды</a></li>
+                        <li><a href="register.html">Присоединиться</a></li>
+                    </ul>
+    
+        <ul class="links" id="links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="login.php.html">Маркет</a></li>
+            <li><a href="faq.html">Гайды</a></li>
+        </ul>
+
+        <div class="right-side">
+            <a class="theme"><i class='bx bxs-moon' id="toggleTheme2"></i></a>
+                            <a class="reg" href="register.html">Присоединиться</a>
+                    </div>
+    </header>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rockstar Premium - Вход в аккаунт</title>
+    <script src="recaptcha/enterprise.js" async="" defer=""></script>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/notifications.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/login.css?1'>
+    <link href='boxicons%402.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<style>
+
+:root {
+    --main-color: rgb(86,102,220);
+    --main-second-color: rgb(124,146,223);
+}
+
+
+</style>
+
+<body>
+    <section id="main">
+        <div class="container">
+            <div class="reg-box">
+                <form method="post">
+                    <div class="reg-text">
+                        <h2>Вход в аккаунт</h2>
+                        <div class="desc">Введите данные для входа в аккаунт</div>
+                    </div>
+    
+                    <div class="inputs">
+                        <div class="input-login input">
+                            <label for="login">Логин или email</label><br>
+                            <input placeholder="Введите логин" name="login" id="login" type="text">
+                        </div>
+                        <div id="pass" class="input-pass input">
+                            <label for="pass">Пароль</label><br>
+                            <input placeholder="Введите пароль" type="password" name="password" id="password">
+                        </div>
+                    </div>
+                    
+                    <div class="g-recaptcha" data-sitekey="6LeIsS4qAAAAAIQjeQPK9IYf8XycYHOp4rNk6H0z" data-action='submit' data-callback='onSubmit'></div>
+    
+                    <div class="btn-register">
+                        <button id="btn-reg" class="btn-reg">Войти</button>
+                    </div>
+    
+                    <div class="have-acc">
+                        <span>Нет аккаунта? <a style="color: var(--main-color);" href="register.php.html">Регистрация</a></span>
+                        <br><span>Забыли пароль? <a style="color: var(--main-color);" href='reset.php.html'>Сбросить пароль</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="notification-container"></div>
+    </section>
+
+    <script src="js/autotheme.js"></script>
+    <script>
+    
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+  
+        function validateForm() {
+             const recaptchaResponse = grecaptcha.getResponse();
+             document.querySelector('input[name="g-recaptcha-response"]').value = recaptchaResponse;
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const regButton = document.getElementById('btn-reg');
+            const inputs = document.querySelectorAll('input[type="text"],input[type="login"], input[type="password"]');
+        
+            function checkFormInputs() {
+                const allFilled = Array.from(inputs).every(input => input.value.trim() !== '');
+                regButton.disabled = !allFilled;
+            }
+        
+            inputs.forEach(input => {
+                input.addEventListener('input', checkFormInputs);
+            });
+            
+            grecaptcha.render('g-recaptcha', {
+                'callback': validateForm
+            });
+        });
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            const header = document.querySelector("header");
+            window.addEventListener("scroll", function() { 
+                header.classList.toggle("sticky", window.scrollY > 20);
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const boxes = document.querySelectorAll('.box');
+            boxes.forEach(function(box) {
+                box.classList.add('show');
+            });
+        });
+
+        var menuicon = document.getElementById('mobile-mode');
+        var menulist = document.getElementById('menu-list');
+
+        menuicon.onclick = function() {
+            if (menulist.classList.contains('hide')) {
+                menulist.style.display = 'block';
+                setTimeout(function() {
+                    menulist.classList.remove('hide');
+                }, 10);
+            } else {
+                menulist.classList.add('hide');
+                setTimeout(function() {
+                    menulist.style.display = 'none';
+                }, 350);
+            }
+        };
+    </script>
+    <script src="js/notifications.js"></script>
+</body>
+</html>
